@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+
+body {
+  font-family: "Krona One", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.ATT {
+  background-color: rgb(190, 190, 190);
+  padding: 20px;
+  width: 50vw;
+  height: 84vh;
+}
+
+.imagebox {
+  background-color: rgb(190, 190, 190);
+}
+
+.NB {
+  background-color: #002366;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+}
+
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.member img {
+  max-width: 200px;
+  aspect-ratio: 1 / 1.2;
+  object-fit: cover;
+}
+.navButton {
+  font-family: "Krona One", sans-serif;
+  background-color: #002366;
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+}
+
+.navButton:hover {
+  background-color: rgb(194, 194, 194);
+  color: black;
+}
+
+.titles {
+  background-color: #6c3baa;
+  margin: 0;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.imagesList {
+  display: flex;
+  gap: 5px;
+  justify-content: stretch;
+  width: 50vw;
+  flex-direction: column;
+}
+
+.topImage {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  width: 50vw;
+  height: 50%;
+  gap: 5px;
+}
+
+.imagebox {
+  width: 50%;
+  gap: 5px;
+}
+
+.bottomImage {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  width: 50vw;
+  height: 50%;
+  gap: 5px;
+}
+
+#searchBar {
+  background-color: #7c5b99;
+  width: fit-content;
+  height: fit-content;
+  padding: 5px;
+  color: white;
+  border-radius: 100px;
+  margin: 10px;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  user-select: none;
+}
+
+.iconButton {
+  height: fit-content;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.iconImage {
+  width: 1.8rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  width: fit-content;
+  height: fit-content;
+}
