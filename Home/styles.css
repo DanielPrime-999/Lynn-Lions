@@ -11,6 +11,7 @@ body {
   padding: 20px;
   width: 50vw;
   height: 84vh;
+  font-size: 25px;
 }
 
 .imagebox {
@@ -106,7 +107,6 @@ body {
   background: none;
   outline: none;
   border: none;
-  
 }
 
 .iconImage {
