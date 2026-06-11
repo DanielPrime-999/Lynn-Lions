@@ -115,3 +115,20 @@ a {
   color: inherit;
   text-decoration: inherit;
 }
+
+.clips {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+p5 {
+  word-break: break-all;
+  max-width: 532px;
+  max-height: 400px;
+  background-color: #dedbe0;
+  display: flex;
+  justify-content: space-around;
+}
+

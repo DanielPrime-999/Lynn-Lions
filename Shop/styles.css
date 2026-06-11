@@ -115,3 +115,29 @@ a {
   color: inherit;
   text-decoration: inherit;
 }
+.white_shirts {
+  display: flex;
+  flex-direction: row;
+  gap: 57px;
+}
+
+.black_shirts {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.shirts_row {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  width: 100%;
+  flex-direction: column;
+}
+
+p {
+  width: 300px;
+  padding: 20px;
+  background-color: rgb(230, 224, 224);
+  height: 358px;
+  text-align: left;
+}

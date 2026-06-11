@@ -38,7 +38,8 @@ body {
 }
 
 .member {
-  place-content: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .member img {
@@ -130,4 +131,11 @@ a {
   text-decoration: inherit;
   width: fit-content;
   height: fit-content;
+}
+.team_info {
+  background-color: #bcbcbd;
+}
+
+.team_name {
+  background-color: #bcbcbd;
 }
