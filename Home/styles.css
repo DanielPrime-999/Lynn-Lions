@@ -25,11 +25,6 @@ body {
   justify-content: space-between;
 }
 
-.row {
-  display: flex;
-  align-items: center;
-}
-
 .boxes {
   display: flex;
   flex-direction: row;

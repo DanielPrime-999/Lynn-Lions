@@ -24,10 +24,6 @@ body {
   justify-content: space-between;
 }
 
-.row {
-  display: flex;
-}
-
 .boxes {
   display: flex;
   flex-direction: row;
@@ -131,4 +127,3 @@ p5 {
   display: flex;
   justify-content: space-around;
 }
-

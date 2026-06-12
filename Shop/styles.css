@@ -100,17 +100,6 @@ body {
   user-select: none;
 }
 
-.iconButton {
-  height: fit-content;
-  background: none;
-  outline: none;
-  border: none;
-}
-
-.iconImage {
-  width: 1.8rem;
-}
-
 a {
   color: inherit;
   text-decoration: inherit;
